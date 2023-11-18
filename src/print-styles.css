@@ -1,0 +1,11 @@
+@media print {
+    /* Hide all elements except for the printable-content and its children */
+    body * {
+      visibility: hidden;
+    }
+    #printable-content, #printable-content * {
+      visibility: visible;
+    }
+    /* You may define additional print-specific styles here */
+  }
+  
